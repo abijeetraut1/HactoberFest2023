@@ -1,0 +1,115 @@
+.design-one-container {
+ display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 400px;
+  height: 400px;
+  align-content: space-between;
+}
+
+.first-container {
+  background-color: #87ceeb;
+  padding: 20px;
+  flex: 1;
+  flexDirection: row
+  min-width: 50%;
+  min-height: 50%;
+}
+
+.first-child {
+  width: 80px;
+  height: 80px;
+  background-color: #4169e1;
+  color: #fff;
+   flex-direction: row-reverse;
+  justify-content: flex-end;
+  line-height: 100px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.second-child {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.second-container {
+  background-color: #77dd77;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-between;
+  min-width: 50%;
+  min-height: 50%;
+}
+
+
+
+.second-c {
+  background-color: #FDFD96;
+  width: 150px;
+  height: 500px;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.third-container {
+  background-color: #FDFD96;
+  flex: 1;
+  flexDirection: column;
+  min-width: 50%;
+  min-height: 50%;
+}
+
+.third-child {
+  display: flex;
+  justify-content: center;
+  margin-top: 130px
+}
+
+.third-a {
+ width: 80px;
+  height: 80px;
+  background-color: #4169e1;
+  color: #fff;
+  line-height: 100px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 130px;
+  margin-bottom: 20px
+
+}
+
+.fourth-container {
+  background-color: #ffd1dc;
+  padding: 20px;
+  flex: 1;
+  flexDirection: 'row'
+  min-width: 50%;
+  min-height: 50%;
+}
+
+.fourth {
+  display: flex;
+  justify-content: center;
+}
+
+.fourth-child {
+ width: 80px;
+  height: 80px;
+  background-color: #4169e1;
+  color: #fff;
+  line-height: 100px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 130px;
+  margin-bottom: 20px
+}
+
+

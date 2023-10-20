@@ -1,0 +1,235 @@
+@font-face {
+    font-family: Subjectivity-bold;
+    src: url("./../fonts/Subjectivity-Bold.otf");
+}
+
+@font-face {
+    font-family: Subjectivity-regular;
+    src: url("./../fonts/Subjectivity-Regular.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Subjectivity-regular;
+    overflow-x: hidden;
+}
+
+
+:root {
+    --video-section-height: 40vh;
+    --video-section-rest: 60vh;
+}
+
+
+/* body */
+.landing-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    /* position: absolute;
+    top: 1px; */
+    flex-direction: column;
+}
+
+.compnay-logo {
+    font-family: Subjectivity-bold;
+    font-size: 5rem;
+}
+
+.some-words {
+    text-align: center;
+}
+
+.japanese-text {
+    font-family: Subjectivity-bold;
+    font-size: 2rem;
+}
+
+/* intro section */
+.video {
+    height: var(--video-section-height);
+    width: 100%;
+    margin: auto;
+    background-color: rgb(202, 202, 202);
+}
+
+.video::before {
+    content: " ";
+    background: url("./../image/interior.jpg") no-repeat center center / cover;
+    position: absolute;
+    height: var(--video-section-height);
+    width: 102vw;
+    opacity: .3;
+}
+
+.video-text {
+    height: var(--video-section-height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateX(0rem);
+
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 1rem 0;
+}
+
+.circle {
+    border: 1px solid rgb(255, 255, 255);
+    padding: .5rem;
+    border-radius: 1.5rem;
+    margin: 0 .7rem;
+}
+
+.icon {
+    height: 24px;
+    width: 24px;
+}
+
+/* image section */
+.image-section {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 1rem 0 .5rem 0;
+}
+
+.description {
+    width: 30vw;
+    text-align: justify;
+}
+
+.image-container {
+    width: 50vw;
+    overflow: hidden;
+    display: flex;
+}
+
+/* image-container */
+.image01 {
+    /* transform: translateX(20rem); */
+    margin-top: 20rem;
+}
+
+.image02 {
+    /* transform: translateX(-.5rem); */
+
+    margin-bottom: .5rem;
+}
+
+.image01,
+.image02 {
+    height: 25vw;
+    width: fit-content;
+    background-size: cover;
+    overflow: hidden;
+    padding: 0 .5rem;
+}
+
+
+.image01 img,
+.image02 img {
+    height: 100%;
+}
+
+
+.gate-section {
+    background-color: #e3e4e9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.gate-image {
+    overflow: hidden;
+    height: 100vh;
+    background-size: cover;
+}
+
+.gate-image img {
+    height: 100%;
+}
+
+.addresslocation {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+}
+
+.addresslocation div {
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.time h3 {
+    margin: 0 5rem;
+}
+
+.menu {
+    margin: 0 5rem;
+}
+
+
+/* cake image overview */
+.cake-image-display {
+    width: 100vw;
+    margin-top: 2rem;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 5rem;
+}
+
+.text-001 div {
+    width: 20vw;
+    text-align: justify;
+}
+
+.image-001 {
+    height: 50vh;
+    overflow: hidden;
+}
+.image-002 {
+    height: 65vh;
+    overflow: hidden;
+}
+
+.image-001 img,
+.image-002 img,
+.image-003 img {
+    height: 100%;
+}
+
+
+/* create papaer menu */
+.cageterial-image{
+    display: flex;
+}
+
+.cageterial-image div {
+    width: 30vw;
+}
+
+.cageterial-image div img{
+    width: 100%;
+}
